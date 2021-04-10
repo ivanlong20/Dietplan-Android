@@ -1,6 +1,5 @@
 package com.example.dietplan;
 
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 
-public class BMIFragment extends Fragment implements View.OnClickListener {
+public class HomeFragment extends Fragment implements View.OnClickListener {
 
     Button button;
     TextView tv;
@@ -22,7 +21,7 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = LayoutInflater.from(getActivity()).inflate(
-                R.layout.fragment_bmi, null);
+                R.layout.fragment_home, null);
 
         button = (Button) v.findViewById(R.id.button);
         button.setOnClickListener(this);
@@ -33,7 +32,7 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v){
         switch (v.getId()){
             case R.id.button:
-                tv.setText("on9");
+                //tv.setText("on9");
         }
     }
 }
