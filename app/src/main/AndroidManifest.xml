@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dietplan">
+
+
+        <activity android:name=".BMRFragment" >    </activity>
+        <activity android:name=".BMIFragment" />
+        <activity android:name=".HomeActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
