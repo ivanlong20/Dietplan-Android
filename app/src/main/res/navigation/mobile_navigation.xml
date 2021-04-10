@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_bmr"
-        android:name="com.example.dietplan.ui.dashboard.DashboardFragment"
+        android:name="com.example.dietplan.BMRFragment"
         android:label="BMR calculator"
         tools:layout="@layout/fragment_bmr" />
 
     <fragment
         android:id="@+id/navigation_bmi"
-        android:name="com.example.dietplan.ui.notifications.NotificationsFragment"
+        android:name="com.example.dietplan.BMIFragment"
         android:label="BMI calculator"
         tools:layout="@layout/fragment_bmi" />
 </navigation>
