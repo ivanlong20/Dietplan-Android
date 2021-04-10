@@ -31,6 +31,7 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         tv = (TextView) v.findViewById(R.id.tv);
         return v;
     }
+    // Updated [Onclick --> onClick]
     public void onClick(View v){
         switch (v.getId()){
             case R.id.button:
