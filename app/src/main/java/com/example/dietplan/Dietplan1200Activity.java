@@ -19,17 +19,17 @@ public class Dietplan1200Activity extends AppCompatActivity implements View.OnCl
         RelativeLayout dietplan1200_btn0 = findViewById(R.id.dietplan1200_btn0);
         dietplan1200_btn0.setOnClickListener(this);
         RelativeLayout dietplan1200_btn1 = findViewById(R.id.dietplan1200_btn1);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn1.setOnClickListener(this);
         RelativeLayout dietplan1200_btn2 = findViewById(R.id.dietplan1200_btn2);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn2.setOnClickListener(this);
         RelativeLayout dietplan1200_btn3 = findViewById(R.id.dietplan1200_btn3);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn3.setOnClickListener(this);
         RelativeLayout dietplan1200_btn4 = findViewById(R.id.dietplan1200_btn4);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn4.setOnClickListener(this);
         RelativeLayout dietplan1200_btn5 = findViewById(R.id.dietplan1200_btn5);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn5.setOnClickListener(this);
         RelativeLayout dietplan1200_btn6 = findViewById(R.id.dietplan1200_btn6);
-        dietplan1200_btn0.setOnClickListener(this);
+        dietplan1200_btn6.setOnClickListener(this);
     }
     // Updated [Onclick --> onClick]
     public void onClick(View v) {

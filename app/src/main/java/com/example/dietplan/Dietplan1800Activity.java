@@ -19,17 +19,17 @@ public class Dietplan1800Activity extends AppCompatActivity implements View.OnCl
         RelativeLayout dietplan1800_btn0 = findViewById(R.id.dietplan1800_btn0);
         dietplan1800_btn0.setOnClickListener(this);
         RelativeLayout dietplan1800_btn1 = findViewById(R.id.dietplan1800_btn1);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn1.setOnClickListener(this);
         RelativeLayout dietplan1800_btn2 = findViewById(R.id.dietplan1800_btn2);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn2.setOnClickListener(this);
         RelativeLayout dietplan1800_btn3 = findViewById(R.id.dietplan1800_btn3);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn3.setOnClickListener(this);
         RelativeLayout dietplan1800_btn4 = findViewById(R.id.dietplan1800_btn4);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn4.setOnClickListener(this);
         RelativeLayout dietplan1800_btn5 = findViewById(R.id.dietplan1800_btn5);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn5.setOnClickListener(this);
         RelativeLayout dietplan1800_btn6 = findViewById(R.id.dietplan1800_btn6);
-        dietplan1800_btn0.setOnClickListener(this);
+        dietplan1800_btn6.setOnClickListener(this);
     }
     // Updated [Onclick --> onClick]
     public void onClick(View v) {
