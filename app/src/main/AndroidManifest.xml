@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dietplan">
-        <activity android:name=".HomeFragment"></activity>
-        <activity android:name=".BMRFragment"></activity>
+        <activity android:name=".Dietplan2000Activity"></activity>
+        <activity android:name=".Dietplan1800Activity" />
+        <activity android:name=".Dietplan1500Activity" />
+        <activity android:name=".Dietplan1200Activity" />
+        <activity android:name=".HomeFragment" />
+        <activity android:name=".BMRFragment" />
         <activity android:name=".BMIFragment" />
         <activity android:name=".HomeActivity" />
         <activity
@@ -22,6 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
