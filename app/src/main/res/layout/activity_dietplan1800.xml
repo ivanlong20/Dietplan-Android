@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
-            android:text="1200 Calories"
+            android:text="1800 Calories"
             android:textColor="#000000"
             android:textSize="24sp" />
 

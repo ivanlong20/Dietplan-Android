@@ -10,13 +10,14 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
-            android:text="1200 Calories"
+            android:text="2000 Calories"
             android:textColor="#000000"
             android:textSize="24sp" />
 
