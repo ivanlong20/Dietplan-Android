@@ -13,8 +13,8 @@
 
         <ImageButton
             android:id="@+id/ib11800d4"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/leftarrow"
             app:srcCompat="@drawable/rightrrow" />
 
@@ -26,364 +26,387 @@
             android:gravity="center"
             android:text="Day 4"
             android:textColor="#000000"
-            android:textSize="36sp" />
+            android:textSize="27sp" />
 
         <ImageButton
             android:id="@+id/ib21800d4"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:background="@drawable/rightrrow"
             app:srcCompat="@drawable/rightrrow"
             tools:srcCompat="@drawable/rightrrow" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="90dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:paddingBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView3"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="\n Morning (565 calories)"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn0"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/day4_1800_0"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="90dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_0"
-                android:layout_toRightOf="@+id/day4_1800_0"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="Muesli with Raspberries, 1 medium banana"
-                android:textAllCaps="false"
+                android:text=" Morning (565 calories)"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
-        </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/day4_1800_1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_0"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_0"
+                    android:layout_toRightOf="@+id/day4_1800_0"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Muesli with Raspberries, 1 medium banana"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_1"
+                    android:layout_toRightOf="@+id/day4_1800_1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1.5 oz. Cheddar cheese"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_1"
-                android:layout_toRightOf="@+id/day4_1800_1"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="1.5 oz. Cheddar cheese"
-                android:textAllCaps="false"
+                android:text=" Afternoon (344 calories)"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
-        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" Afternoon (344 calories)"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/day4_1800_2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_2"
+                    android:layout_toRightOf="@+id/day4_1800_2"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Chipotle-Lime Cauliflower Taco Bowls"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_2"
-                android:layout_toRightOf="@+id/day4_1800_2"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="Chipotle-Lime Cauliflower Taco Bowls"
-                android:textAllCaps="false"
+                android:text=" Evening (200 calories)"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" Evening (200 calories)"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/day4_1800_3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_3"
+                    android:layout_toRightOf="@+id/day4_1800_3"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1 medium apple, 1 Tbsp. peanut butter"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_3"
-                android:layout_toRightOf="@+id/day4_1800_3"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="1 medium apple, 1 Tbsp. peanut butter"
-                android:textAllCaps="false"
+                android:text=" Night (709 calories)"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" Night (709 calories)"
-            android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
-
-            <ImageView
-                android:id="@+id/day4_1800_4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_4"
+                    android:layout_toRightOf="@+id/day4_1800_4"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="Chicken and Cucumber Lettuce Wraps with Peanut Sauce"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day4_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day4_1800_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/dietplancover1800" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day4_1800_5"
+                    android:layout_toRightOf="@+id/day4_1800_5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="raspberries, 1 oz. dark chocolate"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_4"
-                android:layout_toRightOf="@+id/day4_1800_4"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="Chicken and Cucumber Lettuce Wraps with Peanut Sauce"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-        </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/dietplan1800Day4_btn5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_borderline"
-            tools:ignore="MissingConstraints">
+                android:text=" Daily Totals: 1,817 calories, 77 g protein, \n 223 g carbohydrate, 51 g fiber, 78 g fat, 1,448 mg sodium" />
+        </LinearLayout>
 
-            <ImageView
-                android:id="@+id/day4_1800_5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover1800" />
+    </ScrollView>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_toEndOf="@+id/day4_1800_5"
-                android:layout_toRightOf="@+id/day4_1800_5"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="center"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="raspberries, 1 oz. dark chocolate"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </RelativeLayout>
-    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
