@@ -12,7 +12,7 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ib11800d2"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:background="@drawable/leftarrow"
@@ -29,7 +29,7 @@
             android:textSize="36sp" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/ib21800d2"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:background="@drawable/rightrrow"
