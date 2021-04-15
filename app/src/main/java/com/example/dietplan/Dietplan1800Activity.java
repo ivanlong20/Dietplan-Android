@@ -75,9 +75,8 @@ public class Dietplan1800Activity extends AppCompatActivity implements View.OnCl
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
             case android.R.id.home:
-                // todo: goto back activity from here
-
-                finish();
+                Intent i = new Intent(this, MainActivity.class);
+                startActivity(i);
                 return true;
 
             default:
