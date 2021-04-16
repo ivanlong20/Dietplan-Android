@@ -146,8 +146,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -197,10 +197,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="20dp"
                     android:src="@drawable/dietplancover1800" />
 
                 <TextView
@@ -219,10 +219,10 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Chipotle-Lime Cauliflower Taco Bowls, 15 roasted almonds"
+                    android:text="Chipotle-Lime Cauliflower Taco Bowls,\n15 roasted almonds"
                     android:textAllCaps="false"
                     android:textColor="#000000"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
@@ -268,8 +268,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -319,16 +319,16 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="50dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginBottom="50dp"
                     android:src="@drawable/dietplancover1800" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
@@ -341,10 +341,10 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Mediterranean Ravioli with Artichokes and Olives, mixed greens topped with Balsamic Vinaigrette"
+                    android:text="Mediterranean Ravioli with Artichokes and Olives,\nmixed greens topped with Balsamic Vinaigrette"
                     android:textAllCaps="false"
                     android:textColor="#000000"
-                    android:textSize="16sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
