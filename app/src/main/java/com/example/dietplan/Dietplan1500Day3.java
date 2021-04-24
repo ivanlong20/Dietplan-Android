@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class Dietplan1500Day3 extends AppCompatActivity {
 
@@ -14,7 +16,30 @@ public class Dietplan1500Day3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan1500_day3);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        go_1500_day4 ();
+        go_1500_day2 ();
     }
+
+    private void go_1500_day4 (){
+        ImageButton ib2 = (ImageButton) findViewById(R.id.ib2);
+        ib2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day3.this, Dietplan1500Day4.class));
+            }
+        });
+    }
+
+    private void go_1500_day2 (){
+        ImageButton ib1 = (ImageButton) findViewById(R.id.ib1);
+        ib1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day3.this, Dietplan1500Day2.class));
+            }
+        });
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
