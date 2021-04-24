@@ -28,9 +28,11 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
         dietplan2000Day3_btn0.setOnClickListener(this);
         dietplan2000Day3_btn1 = findViewById(R.id.dietplan2000Day3_btn1);
         dietplan2000Day3_btn1.setOnClickListener(this);
+        /*
         dietplan2000Day3_btn2 = findViewById(R.id.dietplan2000Day3_btn2);
         dietplan2000Day3_btn2.setOnClickListener(this);
         dietplan2000Day3_btn3 = findViewById(R.id.dietplan2000Day3_btn3);
+        */
         dietplan2000Day3_btn3.setOnClickListener(this);
         dietplan2000Day3_btn4 = findViewById(R.id.dietplan2000Day3_btn4);
         dietplan2000Day3_btn4.setOnClickListener(this);
@@ -71,6 +73,7 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
+            /*
             case R.id.dietplan2000Day3_btn2:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
@@ -81,6 +84,7 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
+            */
             case R.id.dietplan2000Day3_btn4:{
                 Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
