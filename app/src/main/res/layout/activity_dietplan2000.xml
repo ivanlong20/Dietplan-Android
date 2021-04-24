@@ -47,7 +47,7 @@
                 android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/dietplancover2000" />
+                app:srcCompat="@drawable/sheetpanbowls" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,8 +92,14 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1500" />
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/dietplancover1500"
+                app:srcCompat="@drawable/burger" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -128,7 +134,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_pink"
+            android:background="@drawable/rounded_rectangle_blue"
             tools:ignore="MissingConstraints">
 
             <ImageView
@@ -138,8 +144,14 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/dietplancover1800"
+                app:srcCompat="@drawable/lecttuce_wrap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -179,8 +191,13 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:src="@drawable/dietplancover2000" />
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/ravioli" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -225,8 +242,13 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:src="@drawable/dietplancover2000" />
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/curriedsoup" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -307,7 +329,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_pink"
+            android:background="@drawable/rounded_rectangle_blue"
             tools:ignore="MissingConstraints">
 
             <ImageView
@@ -317,8 +339,14 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/dietplancover1800"
+                app:srcCompat="@drawable/spinachpasta" />
 
             <TextView
                 android:layout_width="wrap_content"

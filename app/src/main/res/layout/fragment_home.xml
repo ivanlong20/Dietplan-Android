@@ -4,14 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".ui.home.HomeFragment">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center|center_horizontal|top"
-        android:orientation="vertical"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,39 +13,34 @@
         android:orientation="vertical">
 
         <RelativeLayout
-            android:id="@+id/dietplancover_btn0"
+            android:id="@+id/dietplancover_btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_yellow"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_rectangle_borderline"
             tools:ignore="MissingConstraints">
 
             <ImageView
-                android:id="@+id/day1_1200"
+                android:id="@+id/day4_1200"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1200" />
+                android:src="@drawable/dietplancover2000" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_margin="10dp"
-                android:layout_toEndOf="@+id/day1_1200"
-                android:layout_toRightOf="@+id/day1_1200"
+                android:layout_toEndOf="@+id/day4_1200"
+                android:layout_toRightOf="@+id/day4_1200"
                 android:fontFamily="sans-serif-smallcaps"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:text="1200 calories"
+                android:text="2000 calories"
                 android:textAllCaps="false"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -70,7 +58,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_green"
+            android:background="@drawable/rounded_rectangle_borderline"
             tools:ignore="MissingConstraints">
 
             <ImageView
@@ -111,7 +99,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_pink"
+            android:background="@drawable/rounded_rectangle_borderline"
             tools:ignore="MissingConstraints">
 
             <ImageView
@@ -148,34 +136,39 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/dietplancover_btn3"
+            android:id="@+id/dietplancover_btn0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="@drawable/rounded_rectangle_grey"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_rectangle_borderline"
             tools:ignore="MissingConstraints">
 
             <ImageView
-                android:id="@+id/day4_1200"
+                android:id="@+id/day1_1200"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_margin="10dp"
-                android:src="@drawable/dietplancover2000" />
+                android:src="@drawable/dietplancover1200" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_margin="10dp"
-                android:layout_toEndOf="@+id/day4_1200"
-                android:layout_toRightOf="@+id/day4_1200"
+                android:layout_toEndOf="@+id/day1_1200"
+                android:layout_toRightOf="@+id/day1_1200"
                 android:fontFamily="sans-serif-smallcaps"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:text="2000 calories"
+                android:text="1200 calories"
                 android:textAllCaps="false"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -188,8 +181,8 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="bottom|center"
+            android:background="#FFFFFF"
             android:src="@drawable/meal" />
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

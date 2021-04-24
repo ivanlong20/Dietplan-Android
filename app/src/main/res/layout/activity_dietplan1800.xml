@@ -128,7 +128,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_pink"
+            android:background="@drawable/rounded_rectangle_blue"
             tools:ignore="MissingConstraints">
 
             <ImageView
@@ -307,7 +307,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/rounded_rectangle_pink"
+            android:background="@drawable/rounded_rectangle_blue"
             tools:ignore="MissingConstraints">
 
             <ImageView

@@ -11,6 +11,7 @@
     <color name="green">#7BE87F</color>
     <color name="pink">#E69494</color>
     <color name="grey">#BCBABA</color>
+    <color name="blue">#00BCD4</color>
     <color name="app_color">#303030</color>
     <color name="app_color_top">#474747</color>
 </resources>
