@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1500Day2 extends AppCompatActivity {
 
@@ -19,6 +20,50 @@ public class Dietplan1500Day2 extends AppCompatActivity {
 
         go_1500_day3 ();
         go_1500_day1 ();
+        go_banana ();
+        go_taco ();
+        go_zucchini ();
+        go_oven ();
+    }
+
+    private void  go_oven (){
+        RelativeLayout dietplan1500Day2_btn9 = (RelativeLayout) findViewById(R.id.dietplan2000Day2_btn9);
+        dietplan1500Day2_btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, RecipesOfOvenSweetPotatoFries.class));
+            }
+        });
+    }
+
+    private void  go_zucchini (){
+        RelativeLayout dietplan1500Day2_btn8 = (RelativeLayout) findViewById(R.id.dietplan2000Day2_btn8);
+        dietplan1500Day2_btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, RecipesOfZucchiniChickpeaVeggieBurgerswithTahiniRanchSauce.class));
+            }
+        });
+    }
+
+    private void go_taco (){
+        RelativeLayout dietplan1500Day2_btn4 = (RelativeLayout) findViewById(R.id.dietplan2000Day2_btn4);
+        dietplan1500Day2_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, RecipesOfChipotleLimeCauliflowerTacoBowls.class));
+            }
+        });
+    }
+
+    private void go_banana (){
+        RelativeLayout dietplan1500Day2_btn0 = (RelativeLayout) findViewById(R.id.dietplan2000Day2_btn0);
+        dietplan1500Day2_btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, RecipesOfBakedBananaNutOatmealCups.class));
+            }
+        });
     }
 
     private void go_1500_day3 (){
