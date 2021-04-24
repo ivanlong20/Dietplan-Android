@@ -331,7 +331,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 serving Mediterranean Ravioli with Artichokes & Olives"
+                    android:text="1 serving Chicken and Cucumber Lettuce Wraps with Peanut Sauce"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
