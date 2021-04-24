@@ -57,7 +57,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Morning (690 calories)"
+                android:text=" Morning (482 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -114,6 +114,60 @@
                     android:textStyle="bold" />
 
             </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan2000Day3_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/Day3_2000_5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+
+                    app:srcCompat="@drawable/apple" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/Day3_2000_5"
+                    android:layout_toRightOf="@+id/Day3_2000_5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1 medium apple"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/dietplan2000Day3_btn1"
                 android:layout_width="match_parent"
@@ -140,7 +194,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    
+
                     app:srcCompat="@drawable/clementine" />
 
                 <TextView
@@ -159,111 +213,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="2 Clementines"
-                    android:textAllCaps="false"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/dietplan2000Day3_btn2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/rounded_rectangle_borderline"
-                tools:ignore="MissingConstraints">
-
-                <ImageView
-                    android:id="@+id/Day3_2000_2"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    
-                    app:srcCompat="@drawable/almond" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/Day3_2000_2"
-                    android:layout_toRightOf="@+id/Day3_2000_2"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:gravity="center"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    android:text="20 roasted unsalted almonds"
-                    android:textAllCaps="false"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/dietplan2000Day3_btn3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/rounded_rectangle_borderline"
-                tools:ignore="MissingConstraints">
-
-                <ImageView
-                    android:id="@+id/Day3_2000_3"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    
-                    app:srcCompat="@drawable/cheddarcheese" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/Day3_2000_3"
-                    android:layout_toRightOf="@+id/Day3_2000_3"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:gravity="center"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    android:text="1 oz. Cheddar cheese"
+                    android:text="1 Clementines"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -275,10 +225,11 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Afternoon (439 calories)"
+                android:text=" Afternoon (344 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
             <RelativeLayout
                 android:id="@+id/dietplan2000Day3_btn4"
                 android:layout_width="match_parent"
@@ -331,64 +282,12 @@
                     android:textStyle="bold" />
 
             </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/dietplan2000Day3_btn5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/rounded_rectangle_borderline"
-                tools:ignore="MissingConstraints">
-
-                <ImageView
-                    android:id="@+id/Day3_2000_5"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    
-                    app:srcCompat="@drawable/apple" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/Day3_2000_5"
-                    android:layout_toRightOf="@+id/Day3_2000_5"
-                    android:fontFamily="sans-serif-smallcaps"
-                    android:gravity="center"
-                    android:paddingStart="20dp"
-                    android:paddingEnd="20dp"
-                    android:text="1 medium apple"
-                    android:textAllCaps="false"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </RelativeLayout>
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Evening (296 calories)"
+                android:text=" Evening (201 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -490,7 +389,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="2 Tbsp. peanut butter"
+                    android:text="1 Tbsp. peanut butter"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -502,7 +401,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Night (550 calories)"
+                android:text=" Night (475 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -603,7 +502,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 (4-inch) piece whole-wheat baguette"
+                    android:text="1 (2-inch) piece whole-wheat baguette"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -615,7 +514,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daily Totals: 1,976 calories, 88 g protein, \n245 g carbohydrate, 43 g fiber, 83 g fat, 2,189 mg sodium" />
+                android:text="Daily Totals: 1,502 calories, 70 g protein, 212 g carbohydrate, 38 g fiber, 51 g fat, 1,851 mg sodium" />
         </LinearLayout>
 
     </ScrollView>
