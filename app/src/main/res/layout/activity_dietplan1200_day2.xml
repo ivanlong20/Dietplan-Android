@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dietplan1200Day1">
+    tools:context=".Dietplan1200Day2">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -58,13 +58,13 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Morning (271 calories)"
+                android:text=" Morning (463 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <RelativeLayout
-                android:id="@+id/dietplan1200Day1_btn0"
+                android:id="@+id/dietplan1200Day2_btn0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -77,7 +77,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day1_1200_0"
+                    android:id="@+id/day2_1200_0"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -101,8 +101,8 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/day1_1200_0"
-                    android:layout_toRightOf="@+id/day1_1200_0"
+                    android:layout_toEndOf="@+id/day2_1200_0"
+                    android:layout_toRightOf="@+id/day2_1200_0"
                     android:fontFamily="sans-serif-smallcaps"
                     android:gravity="center"
                     android:paddingStart="20dp"
@@ -115,7 +115,59 @@
 
             </RelativeLayout>
             <RelativeLayout
-                android:id="@+id/dietplan1200Day1_btn1"
+                android:id="@+id/dietplan1200Day2_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day2_1200_1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/clementine" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day2_1200_1"
+                    android:layout_toRightOf="@+id/day2_1200_1"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1 oz. Cheddar cheese "
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1200Day2_btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -140,7 +192,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/clementine" />
+                    android:src="@drawable/boiledegg" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -158,24 +210,23 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 medium apple "
+                    android:text="1 hard-boiled egg"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
-
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Afternoon (325 calories)"
+                android:text=" Afternoon (344 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day1_btn2"
+                android:id="@+id/dietplan1200Day2_btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -188,7 +239,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day1_1200_2"
+                    android:id="@+id/day2_1200_2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -200,7 +251,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/veggiesandwich" />
+                    android:src="@drawable/tacobowls" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -218,7 +269,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Veggie and Hummus Sandwich "
+                    android:text="1 serving Chipotle-Lime Cauliflower Taco Bowls "
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -230,13 +281,13 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Evening (105 calories)"
+                android:text=" Evening (35 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
             <RelativeLayout
-                android:id="@+id/dietplan1200Day1_btn3"
+                android:id="@+id/dietplan1200Day2_btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -249,7 +300,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day1_1200_3"
+                    android:id="@+id/day2_1200_3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -261,7 +312,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/banana" />
+                    android:src="@drawable/clementine" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -279,7 +330,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 medium banana"
+                    android:text="1 clementine"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -291,12 +342,12 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Night (468 calories)"
+                android:text=" Night (373 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day1_btn4"
+                android:id="@+id/dietplan1200Day2_btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -309,7 +360,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day1_1200_4"
+                    android:id="@+id/day2_1200_4"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -321,7 +372,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/sheetpanbowls" />
+                    android:src="@drawable/burger" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -339,7 +390,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Sheet-Pan Chicken Fajita Bowls with 1/2 cup brown rice"
+                    android:text="1 serving Zucchini-Chickpea Veggie Burgers with Tahini-Ranch Sauce"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
