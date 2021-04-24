@@ -10,31 +10,149 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF"
+        android:gravity="center|top"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_notifications"
+            android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:text="bmi"
-            android:textAlignment="center"
-            android:textSize="20sp" />
+            android:gravity="center"
+            android:text="Your BMI" />
 
         <TextView
-            android:id="@+id/tv"
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:fontFamily="@font/fredoka_one"
+            android:text="Result"
+            android:textColor="#191919"
+            android:textSize="36sp" />
 
-        <Button
-            android:id="@+id/button"
+        <TextView
+            android:id="@+id/tvResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/tvTips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:textColor="#6A6969"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvTips1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text=" Height"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextNumberHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="cm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text=" Weight"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextNumberWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="kg" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:text="Calculate"
+                android:textAllCaps="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
