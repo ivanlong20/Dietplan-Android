@@ -57,15 +57,15 @@ public class Dietplan1800Day3 extends AppCompatActivity implements View.OnClickL
                 Intent i = new Intent(this, Dietplan1800Day4.class);
                 startActivity(i);
                 break; }
-            case R.id.dietplan1800Day1_btn0: {
+            case R.id.dietplan1800Day3_btn0: {
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break; }
-            case R.id.dietplan1800Day1_btn4: {
+            case R.id.dietplan1800Day3_btn4: {
                 Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
                 break; }
-            case R.id.dietplan1800Day1_btn8: {
+            case R.id.dietplan1800Day3_btn8: {
                 Intent i = new Intent(this, RecipesOfEasySalmonCakes.class);
                 startActivity(i);
                 break; }
