@@ -7,8 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1500Day1 extends AppCompatActivity {
 
@@ -20,9 +20,40 @@ public class Dietplan1500Day1 extends AppCompatActivity {
 
         go_1500_day2 ();
         go_1500_day7 ();
+        go_banana ();
+        go_sandwich ();
+        go_sheet_chicken ();
     }
 
+    private void go_banana (){
+        RelativeLayout dietplan1500Day1_btn0 = (RelativeLayout) findViewById(R.id.dietplan2000Day1_btn0);
+        dietplan1500Day1_btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day1.this, RecipesOfBakedBananaNutOatmealCups.class));
+            }
+        });
+    }
 
+    private void go_sandwich (){
+        RelativeLayout dietplan1500Day1_btn4 = (RelativeLayout) findViewById(R.id.dietplan2000Day1_btn4);
+        dietplan1500Day1_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day1.this, RecipesOfVeggieHummusSandwich.class));
+            }
+        });
+    }
+
+    private void go_sheet_chicken (){
+        RelativeLayout dietplan1500Day1_btn8 = (RelativeLayout) findViewById(R.id.dietplan2000Day1_btn8);
+        dietplan1500Day1_btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day1.this, RecipesOfSheetPanChickenFajitaBowls.class));
+            }
+        });
+    }
 
     private void go_1500_day2 (){
         ImageButton ib2 = (ImageButton) findViewById(R.id.ib2);
@@ -43,6 +74,8 @@ public class Dietplan1500Day1 extends AppCompatActivity {
             }
         });
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -295,7 +295,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day1_2000_4"
+                    android:id="@+id/day1_1500_4"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -320,8 +320,8 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/day1_2000_4"
-                    android:layout_toRightOf="@+id/day1_2000_4"
+                    android:layout_toEndOf="@+id/day1_1500_4"
+                    android:layout_toRightOf="@+id/day1_1500_4"
                     android:fontFamily="sans-serif-smallcaps"
                     android:gravity="center"
                     android:paddingStart="20dp"
