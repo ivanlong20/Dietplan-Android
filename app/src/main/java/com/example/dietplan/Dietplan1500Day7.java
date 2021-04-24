@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1500Day7 extends AppCompatActivity {
 
@@ -18,6 +19,39 @@ public class Dietplan1500Day7 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         go_1500_day1 ();
         go_1500_day6 ();
+        go_egg();
+        go_curried();
+        go_spinach();
+    }
+
+    private void go_spinach (){
+        RelativeLayout dietplan2000Day7_btn66 = (RelativeLayout) findViewById(R.id.dietplan2000Day7_btn6);
+        dietplan2000Day7_btn66.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day7.this, RecipesOfSpinachArtichokeDipPasta.class));
+            }
+        });
+    }
+
+    private void go_curried (){
+        RelativeLayout dietplan2000Day6_btn33 = (RelativeLayout) findViewById(R.id.dietplan2000Day6_btn9);
+        dietplan2000Day6_btn33.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day7.this, RecipesOfCurriedSweetPotatoPeanutSoup.class));
+            }
+        });
+    }
+
+    private void go_egg (){
+        RelativeLayout dietplan1500Day7_btn0 = (RelativeLayout) findViewById(R.id.dietplan2000Day7_btn0);
+        dietplan1500Day7_btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day7.this, RecipesOfEgg_in_a_HolePepperswithAvocadoSalsa.class));
+            }
+        });
     }
 
     private void go_1500_day1 (){
