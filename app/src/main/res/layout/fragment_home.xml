@@ -49,7 +49,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/dietplancover_btn1"
+            android:id="@+id/dietplancover_btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -69,7 +69,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1500" />
+                android:src="@drawable/dietplancover1800" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:text="1500 calories"
+                android:text="1800 calories"
                 android:textAllCaps="false"
                 android:textColor="#000000"
                 android:textSize="20sp"
@@ -90,7 +90,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/dietplancover_btn2"
+            android:id="@+id/dietplancover_btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -110,7 +110,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_margin="10dp"
-                android:src="@drawable/dietplancover1800" />
+                android:src="@drawable/dietplancover1500" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:text="1800 calories"
+                android:text="1500 calories"
                 android:textAllCaps="false"
                 android:textColor="#000000"
                 android:textSize="20sp"
