@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 public class Dietplan1500Day2 extends AppCompatActivity {
 
@@ -14,6 +16,29 @@ public class Dietplan1500Day2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan1500_day2);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        go_1500_day3 ();
+        go_1500_day1 ();
+    }
+
+    private void go_1500_day3 (){
+        ImageButton ib2 = (ImageButton) findViewById(R.id.ib2);
+        ib2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, Dietplan1500Day3.class));
+            }
+        });
+    }
+
+    private void go_1500_day1 (){
+        ImageButton ib1 = (ImageButton) findViewById(R.id.ib1);
+        ib1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day2.this, Dietplan1500Day1.class));
+            }
+        });
     }
 
     @Override
