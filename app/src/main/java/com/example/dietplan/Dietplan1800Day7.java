@@ -8,9 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1800Day7 extends AppCompatActivity implements View.OnClickListener {
     private ImageButton imageButton1, imageButton2;
+    private RelativeLayout rl0, rl1, rl2, rl3, rl4, rl5, rl6, rl7, rl8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,25 @@ public class Dietplan1800Day7 extends AppCompatActivity implements View.OnClickL
         imageButton1.setOnClickListener(this);
         imageButton2 = findViewById(R.id.ib21800d7);
         imageButton2.setOnClickListener(this);
+
+        rl0 = findViewById(R.id.dietplan1800Day7_btn0);
+        rl0.setOnClickListener(this);
+        rl1 = findViewById(R.id.dietplan1800Day7_btn1);
+        rl1.setOnClickListener(this);
+        rl2 = findViewById(R.id.dietplan1800Day7_btn2);
+        rl2.setOnClickListener(this);
+        rl3 = findViewById(R.id.dietplan1800Day7_btn3);
+        rl3.setOnClickListener(this);
+        rl4 = findViewById(R.id.dietplan1800Day7_btn4);
+        rl4.setOnClickListener(this);
+        rl5 = findViewById(R.id.dietplan1800Day7_btn5);
+        rl5.setOnClickListener(this);
+        rl6 = findViewById(R.id.dietplan1800Day7_btn6);
+        rl6.setOnClickListener(this);
+        rl7 = findViewById(R.id.dietplan1800Day7_btn7);
+        rl7.setOnClickListener(this);
+        rl8 = findViewById(R.id.dietplan1800Day7_btn8);
+        rl8.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -32,6 +53,18 @@ public class Dietplan1800Day7 extends AppCompatActivity implements View.OnClickL
                 break; }
             case R.id.ib21800d7: {
                 Intent i = new Intent(this, Dietplan1800Day1.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day7_btn0: {
+                Intent i = new Intent(this, RecipesOfEgg_in_a_HolePepperswithAvocadoSalsa.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day7_btn3: {
+                Intent i = new Intent(this, RecipesOfCurriedSweetPotatoPeanutSoup.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day7_btn5: {
+                Intent i = new Intent(this, RecipesOfSpinachArtichokeDipPasta.class);
                 startActivity(i);
                 break; }
         }

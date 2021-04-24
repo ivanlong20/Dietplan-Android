@@ -84,11 +84,11 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:src="@drawable/egginahole" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text='"Egg in a Hole" Peppers with Avocado Salsa'
+                    android:text='1 serving "Egg in a Hole" Peppers with Avocado Salsa'
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -140,14 +140,14 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:src="@drawable/banana" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -158,22 +158,13 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 medium banana,  apple"
+                    android:text="1 medium banana"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text=" Afternoon (345 calories)"
-                android:textColor="#000000"
-                android:textSize="30sp"
-                android:textStyle="bold" />
 
             <RelativeLayout
                 android:id="@+id/dietplan1800Day7_btn2"
@@ -201,14 +192,14 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:src="@drawable/apple" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -219,7 +210,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Curried Sweet Potato and Peanut Soup"
+                    android:text="1 medium apple"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -228,10 +219,10 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Evening (35 calories)"
+                android:text=" Afternoon (345 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -262,14 +253,14 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:src="@drawable/curriedsoup" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="60dp"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -280,7 +271,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="clementines"
+                    android:text="1 serving Curried Sweet Potato and Peanut Soup"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
@@ -289,10 +280,10 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" Night (939 calories)"
+                android:text=" Evening (35 calories)"
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -319,18 +310,18 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginBottom="30dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/clementine" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
@@ -341,12 +332,22 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="Spinach and Artichoke Dip Pasta,\nmixed greens topped with Balsamic Vinaigrette"
+                    android:text="1 clementines"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
             </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Night (939 calories)"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
             <RelativeLayout
                 android:id="@+id/dietplan1800Day7_btn5"
@@ -374,7 +375,160 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:src="@drawable/dietplancover1800" />
+                    android:src="@drawable/spinachpasta" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day7_1800_5"
+                    android:layout_toRightOf="@+id/day7_1800_5"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1 1/2 serving Spinach and Artichoke Dip Pasta"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day7_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day7_1800_6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/mixedgreentop" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day7_1800_6"
+                    android:layout_toRightOf="@+id/day7_1800_6"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="2 cups mixed greens topped with 2 Tbsp. Balsamic Vinaigrette"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day7_btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day7_1800_7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/raspberry" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/day7_1800_7"
+                    android:layout_toRightOf="@+id/day7_1800_7"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="1 cup raspberries"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/dietplan1800Day7_btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_rectangle_borderline"
+                tools:ignore="MissingConstraints">
+
+                <ImageView
+                    android:id="@+id/day7_1800_8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/choclate" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -386,13 +540,13 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/day7_1800_5"
-                    android:layout_toRightOf="@+id/day7_1800_5"
+                    android:layout_toEndOf="@+id/day7_1800_8"
+                    android:layout_toRightOf="@+id/day7_1800_8"
                     android:fontFamily="sans-serif-smallcaps"
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 cup raspberries,\n1 oz. dark chocolate"
+                    android:text="1 oz. dark chocolate"
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"

@@ -8,9 +8,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1800Day3 extends AppCompatActivity implements View.OnClickListener {
     private ImageButton imageButton1, imageButton2;
+    private RelativeLayout rl0, rl1, rl2, rl3, rl4, rl5, rl6, rl7, rl8, rl9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,27 @@ public class Dietplan1800Day3 extends AppCompatActivity implements View.OnClickL
         imageButton1.setOnClickListener(this);
         imageButton2 = findViewById(R.id.ib21800d3);
         imageButton2.setOnClickListener(this);
+
+        rl0 = findViewById(R.id.dietplan1800Day3_btn0);
+        rl0.setOnClickListener(this);
+        rl1 = findViewById(R.id.dietplan1800Day3_btn1);
+        rl1.setOnClickListener(this);
+        rl2 = findViewById(R.id.dietplan1800Day3_btn2);
+        rl2.setOnClickListener(this);
+        rl3 = findViewById(R.id.dietplan1800Day3_btn3);
+        rl3.setOnClickListener(this);
+        rl4 = findViewById(R.id.dietplan1800Day3_btn4);
+        rl4.setOnClickListener(this);
+        rl5 = findViewById(R.id.dietplan1800Day3_btn5);
+        rl5.setOnClickListener(this);
+        rl6 = findViewById(R.id.dietplan1800Day3_btn6);
+        rl6.setOnClickListener(this);
+        rl7 = findViewById(R.id.dietplan1800Day3_btn7);
+        rl7.setOnClickListener(this);
+        rl8 = findViewById(R.id.dietplan1800Day3_btn8);
+        rl8.setOnClickListener(this);
+        rl9 = findViewById(R.id.dietplan1800Day3_btn9);
+        rl9.setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -32,6 +55,18 @@ public class Dietplan1800Day3 extends AppCompatActivity implements View.OnClickL
                 break; }
             case R.id.ib21800d3: {
                 Intent i = new Intent(this, Dietplan1800Day4.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day3_btn0: {
+                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day3_btn4: {
+                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
+                startActivity(i);
+                break; }
+            case R.id.dietplan1800Day3_btn8: {
+                Intent i = new Intent(this, RecipesOfEasySalmonCakes.class);
                 startActivity(i);
                 break; }
         }
