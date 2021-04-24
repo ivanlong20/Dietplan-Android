@@ -460,7 +460,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daily Totals: 1,488 calories, 59 g protein, 191 g carbohydrate, 43 g fiber, 62 g fat, 1,624 mg sodium" />
+                android:text="Daily Totals: 1,487 calories, 59 g protein, 191 g carbohydrate, 43 g fiber, 62 g fat, 1,624 mg sodium" />
         </LinearLayout>
 
     </ScrollView>
