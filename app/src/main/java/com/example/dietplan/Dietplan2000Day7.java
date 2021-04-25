@@ -68,7 +68,7 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
                 break;
             }
             case R.id.dietplan2000Day7_btn4:{
-                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
+                Intent i = new Intent(this, RecipesOfMuesliwithRaspberries.class);
                 startActivity(i);
                 break;
             }
@@ -78,7 +78,7 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
                 break;
             }
             case R.id.dietplan2000Day7_btn7:{
-                Intent i = new Intent(this, RecipesOfChickenCucumberLettuceWrapswithPeanutSauce.class);
+                Intent i = new Intent(this, RecipesOfBalsamicVinaigrette.class);
                 startActivity(i);
                 break;
             }
