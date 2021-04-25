@@ -56,23 +56,13 @@ public class Dietplan1200Day1 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan1200Day1_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan1200Day1_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day1_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan1200Day1_btn4:{
-                Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
+                Intent i = new Intent(this, RecipesOfSheetPanChickenFajitaBowls.class);
                 startActivity(i);
                 break;
             }
@@ -82,9 +72,9 @@ public class Dietplan1200Day1 extends AppCompatActivity implements View.OnClickL
     @Override
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
-            case android.R.id.home: {
-                Intent i = new Intent(this, Dietplan2000Activity.class);
-                startActivity(i);
+            case android.R.id.home:{
+                // todo: goto back activity from here
+                finish();
                 return true;
             }
             case R.id.navigation_home:{

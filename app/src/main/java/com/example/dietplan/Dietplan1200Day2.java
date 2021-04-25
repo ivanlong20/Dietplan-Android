@@ -23,11 +23,11 @@ public class Dietplan1200Day2 extends AppCompatActivity implements View.OnClickL
         imageButton1.setOnClickListener(this);
         imageButton2 = findViewById(R.id.ib2);
         imageButton2.setOnClickListener(this);
-        dietplan1200Day2_btn0 = findViewById(R.id.dietplan1200Day2_btn0);
+        dietplan1200Day2_btn0 = findViewById(R.id.dietplan1200Day7_btn0);
         dietplan1200Day2_btn0.setOnClickListener(this);
-        dietplan1200Day2_btn1 = findViewById(R.id.dietplan1200Day2_btn1);
+        dietplan1200Day2_btn1 = findViewById(R.id.dietplan1200Day7_btn1);
         dietplan1200Day2_btn1.setOnClickListener(this);
-        dietplan1200Day2_btn2 = findViewById(R.id.dietplan1200Day2_btn2);
+        dietplan1200Day2_btn2 = findViewById(R.id.dietplan1200Day7_btn2);
         dietplan1200Day2_btn2.setOnClickListener(this);
         dietplan1200Day2_btn3 = findViewById(R.id.dietplan1200Day2_btn3);
         dietplan1200Day2_btn3.setOnClickListener(this);
@@ -52,33 +52,18 @@ public class Dietplan1200Day2 extends AppCompatActivity implements View.OnClickL
                 Intent i = new Intent(this, Dietplan1200Day3.class);
                 startActivity(i);
                 break; }
-            case R.id.dietplan1200Day2_btn0:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day2_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day2_btn2:{
+            case R.id.dietplan1200Day7_btn0:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan1200Day2_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day2_btn4:{
-                Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
+                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan1200Day2_btn5:{
-                Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
+                Intent i = new Intent(this, RecipesOfZucchiniChickpeaVeggieBurgerswithTahiniRanchSauce.class);
                 startActivity(i);
                 break;
             }
@@ -87,9 +72,9 @@ public class Dietplan1200Day2 extends AppCompatActivity implements View.OnClickL
     @Override
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
-            case android.R.id.home: {
-                Intent i = new Intent(this, Dietplan2000Activity.class);
-                startActivity(i);
+            case android.R.id.home:{
+                // todo: goto back activity from here
+                finish();
                 return true;
             }
             case R.id.navigation_home:{
