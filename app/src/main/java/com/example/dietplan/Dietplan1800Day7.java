@@ -18,7 +18,8 @@ public class Dietplan1800Day7 extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan1800_day7);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("1800 Calories");
 
         imageButton1 = findViewById(R.id.ib11800d7);
         imageButton1.setOnClickListener(this);

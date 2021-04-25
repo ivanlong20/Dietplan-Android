@@ -17,7 +17,8 @@ public class Dietplan1200Day2 extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan1200_day2);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("1200 Calories");
 
         imageButton1 = findViewById(R.id.ib1);
         imageButton1.setOnClickListener(this);

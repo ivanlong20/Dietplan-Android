@@ -16,7 +16,8 @@ public class Dietplan1500Day4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan1500_day4);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("1500 Calories");
         go_1500_day5 ();
         go_1500_day3 ();
         go_muesli ();
