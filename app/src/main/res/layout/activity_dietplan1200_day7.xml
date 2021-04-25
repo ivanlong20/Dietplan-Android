@@ -64,7 +64,7 @@
                 android:textStyle="bold" />
 
             <RelativeLayout
-                android:id="@+id/dietplan1200Day4_btn0"
+                android:id="@+id/dietplan1200Day7_btn0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -92,14 +92,12 @@
                     android:src="@drawable/egginahole" />
 
                 <TextView
-                    android:layout_width="307dp"
-                    android:layout_height="46dp"
+                    android:layout_width="302dp"
+                    android:layout_height="51dp"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_toEndOf="@+id/day2_1200_0"
                     android:layout_toRightOf="@+id/day2_1200_0"
@@ -125,7 +123,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day3_btn2"
+                android:id="@+id/dietplan1200Day7_btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -184,7 +182,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day7_btn4"
+                android:id="@+id/dietplan1200Day7_btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -236,7 +234,7 @@
 
             </RelativeLayout>
             <RelativeLayout
-                android:id="@+id/dietplan1200Day6_btn6"
+                android:id="@+id/dietplan1200Day7_btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -296,7 +294,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day3_btn4"
+                android:id="@+id/dietplan1200Day7_btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"

@@ -44,11 +44,11 @@ public class Dietplan1200Day1 extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ib1: {
-                Intent i = new Intent(this, Dietplan2000Day7.class);
+                Intent i = new Intent(this, Dietplan1200Day7.class);
                 startActivity(i);
                 break; }
             case R.id.ib2: {
-                Intent i = new Intent(this, Dietplan2000Day2.class);
+                Intent i = new Intent(this, Dietplan1200Day2.class);
                 startActivity(i);
                 break; }
             case R.id.dietplan1200Day1_btn0:{
