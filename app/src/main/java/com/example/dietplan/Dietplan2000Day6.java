@@ -69,43 +69,8 @@ public class Dietplan2000Day6 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day6_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan2000Day6_btn4:{
                 Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn5:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn6:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn7:{
-                Intent i = new Intent(this, RecipesOfChickenCucumberLettuceWrapswithPeanutSauce.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day6_btn8:{
-                Intent i = new Intent(this, RecipesOfMediterraneanRavioliwithArtichokesOlives.class);
                 startActivity(i);
                 break;
             }
@@ -114,11 +79,7 @@ public class Dietplan2000Day6 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day6_btn10:{
-                Intent i = new Intent(this, RecipesOfOvenSweetPotatoFries.class);
-                startActivity(i);
-                break;
-            }
+
         }
     }
     @Override

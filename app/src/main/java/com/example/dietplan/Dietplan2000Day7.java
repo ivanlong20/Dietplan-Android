@@ -67,28 +67,8 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day7_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day7_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day7_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan2000Day7_btn4:{
                 Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day7_btn5:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
@@ -99,16 +79,6 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
             }
             case R.id.dietplan2000Day7_btn7:{
                 Intent i = new Intent(this, RecipesOfChickenCucumberLettuceWrapswithPeanutSauce.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day7_btn8:{
-                Intent i = new Intent(this, RecipesOfMediterraneanRavioliwithArtichokesOlives.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day7_btn9:{
-                Intent i = new Intent(this, RecipesOfOvenSweetPotatoFries.class);
                 startActivity(i);
                 break;
             }
