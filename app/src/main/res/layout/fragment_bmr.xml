@@ -116,7 +116,7 @@
 
                 <EditText
                     android:id="@+id/editTextNumberHeight"
-                    android:layout_width="163dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="3"
                     android:inputType="numberDecimal" />
@@ -133,7 +133,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
-                    android:text="cm" />
+                    android:text="cm"
+                    android:textSize="12sp" />
 
             </TableRow>
 
@@ -172,7 +173,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
-                    android:text="kg" />
+                    android:text="kg"
+                    android:textSize="12sp" />
 
             </TableRow>
 
