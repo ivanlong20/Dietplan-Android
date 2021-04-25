@@ -8,12 +8,12 @@
 
     <item
         android:id="@+id/navigation_bmr"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="BMR calculator" />
+        android:icon="@drawable/calculator"
+        android:title="BMR" />
 
     <item
         android:id="@+id/navigation_bmi"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="BMI calculator" />
+        android:icon="@drawable/calculator"
+        android:title="BMI" />
 
 </menu>
