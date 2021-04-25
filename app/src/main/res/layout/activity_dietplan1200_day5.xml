@@ -165,6 +165,7 @@
                     android:textStyle="bold" />
 
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/dietplan1200Day5_btn2"
                 android:layout_width="match_parent"
@@ -179,7 +180,7 @@
                 tools:ignore="MissingConstraints">
 
                 <ImageView
-                    android:id="@+id/day2_1200_1"
+                    android:id="@+id/day5_1200_2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_alignParentStart="true"
@@ -203,8 +204,8 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
-                    android:layout_toEndOf="@+id/day2_1200_1"
-                    android:layout_toRightOf="@+id/day2_1200_1"
+                    android:layout_toEndOf="@+id/day5_1200_2"
+                    android:layout_toRightOf="@+id/day5_1200_2"
                     android:fontFamily="sans-serif-smallcaps"
                     android:gravity="center"
                     android:paddingStart="20dp"
@@ -225,8 +226,9 @@
                 android:textColor="#000000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
+
             <RelativeLayout
-                android:id="@+id/dietplan1200Day2_btn2"
+                android:id="@+id/dietplan1200Day5_btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -288,7 +290,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day2_btn4"
+                android:id="@+id/dietplan1200Day5_btn4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
