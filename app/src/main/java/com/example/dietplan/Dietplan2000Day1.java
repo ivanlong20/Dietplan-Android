@@ -64,41 +64,12 @@ public class Dietplan2000Day1 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day1_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day1_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day1_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan2000Day1_btn4:{
                 Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day1_btn5:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day1_btn6:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day1_btn7:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
+
             case R.id.dietplan2000Day1_btn8:{
                 Intent i = new Intent(this, RecipesOfSheetPanChickenFajitaBowls.class);
                 startActivity(i);

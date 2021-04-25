@@ -67,48 +67,13 @@ public class Dietplan2000Day4 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day4_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day4_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day4_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan2000Day4_btn4:{
                 Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan2000Day4_btn5:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day4_btn6:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
             case R.id.dietplan2000Day4_btn7:{
                 Intent i = new Intent(this, RecipesOfChickenCucumberLettuceWrapswithPeanutSauce.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day4_btn8:{
-                Intent i = new Intent(this, RecipesOfEasySalmonCakes.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day4_btn9:{
-                Intent i = new Intent(this, RecipesOfOvenSweetPotatoFries.class);
                 startActivity(i);
                 break;
             }
