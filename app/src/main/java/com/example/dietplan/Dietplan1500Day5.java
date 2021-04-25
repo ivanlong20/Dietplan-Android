@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
 public class Dietplan1500Day5 extends AppCompatActivity {
 
@@ -18,6 +19,39 @@ public class Dietplan1500Day5 extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         go_1500_day6 ();
         go_1500_day4 ();
+        go_muesli();
+        go_taco();
+        go_mediterranean();
+    }
+
+    private void go_mediterranean (){
+        RelativeLayout dietplan1500Day5_btn8 = (RelativeLayout) findViewById(R.id.dietplan2000Day5_btn8);
+        dietplan1500Day5_btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day5.this, RecipesOfMediterraneanRavioliwithArtichokesOlives.class));
+            }
+        });
+    }
+
+    private void go_taco (){
+        RelativeLayout dietplan1500Day5_btn4 = (RelativeLayout) findViewById(R.id.dietplan2000Day5_btn4);
+        dietplan1500Day5_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day5.this, RecipesOfChipotleLimeCauliflowerTacoBowls.class));
+            }
+        });
+    }
+
+    private void go_muesli (){
+        RelativeLayout dietplan1500Day5_btn0 = (RelativeLayout) findViewById(R.id.dietplan2000Day5_btn0);
+        dietplan1500Day5_btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Dietplan1500Day5.this, RecipesOfMuesliwithRaspberries.class));
+            }
+        });
     }
 
     private void go_1500_day6 (){

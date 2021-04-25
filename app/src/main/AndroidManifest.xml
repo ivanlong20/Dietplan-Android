@@ -17,7 +17,7 @@
         <activity android:name=".RecipesOfMediterraneanRavioliwithArtichokesOlives" />
         <activity android:name=".RecipesOfChickenCucumberLettuceWrapswithPeanutSauce" />
         <activity android:name=".RecipesOfMuesliwithRaspberries" />
-        <activity android:name=".EasySalmomCakes" />
+        <activity android:name=".RecipesOfEasySalmonCakes" />
         <activity android:name=".RecipesOfOvenSweetPotatoFries" />
         <activity android:name=".RecipesOfZucchiniChickpeaVeggieBurgerswithTahiniRanchSauce" />
         <activity android:name=".RecipesOfChipotleLimeCauliflowerTacoBowls" />
