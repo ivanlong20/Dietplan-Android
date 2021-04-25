@@ -64,7 +64,7 @@
                 android:textStyle="bold" />
 
             <RelativeLayout
-                android:id="@+id/dietplan1200Day2_btn0"
+                android:id="@+id/dietplan1200Day7_btn0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -90,7 +90,19 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:src="@drawable/egginahole" />
-
+                <ImageView
+                    android:id="@+id/day1_1200_13"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
                 <TextView
                     android:layout_width="302dp"
                     android:layout_height="51dp"
@@ -123,7 +135,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day2_btn1"
+                android:id="@+id/dietplan1200Day7_btn1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -149,7 +161,19 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:src="@drawable/curriedsoup" />
-
+                <ImageView
+                    android:id="@+id/day1_1200_13"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -182,7 +206,7 @@
                 android:textSize="30sp"
                 android:textStyle="bold" />
             <RelativeLayout
-                android:id="@+id/dietplan1200Day2_btn2"
+                android:id="@+id/dietplan1200Day7_btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -234,7 +258,7 @@
 
             </RelativeLayout>
             <RelativeLayout
-                android:id="@+id/dietplan1200Day3_btn3"
+                android:id="@+id/dietplan1200Day7_btn3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -320,7 +344,19 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:src="@drawable/pasta2" />
-
+                <ImageView
+                    android:id="@+id/day1_1200_13"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

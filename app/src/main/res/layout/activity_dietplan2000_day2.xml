@@ -113,6 +113,20 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <ImageView
+                    android:id="@+id/day2_2000_100"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
+
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/dietplan2000Day2_btn1"
@@ -329,6 +343,20 @@
                     android:textColor="#000000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/day2_2000_110"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
 
             </RelativeLayout>
             <RelativeLayout
@@ -557,6 +585,20 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <ImageView
+                    android:id="@+id/day2_2000_120"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
+
             </RelativeLayout>
             <RelativeLayout
                 android:id="@+id/dietplan2000Day2_btn9"
@@ -586,7 +628,19 @@
                     android:layout_marginBottom="10dp"
                     
                     app:srcCompat="@drawable/sweetpotatofries" />
-
+                <ImageView
+                    android:id="@+id/day1_1200_10"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/rightrrow" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
