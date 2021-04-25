@@ -23,13 +23,13 @@ public class Dietplan1200Day7 extends AppCompatActivity implements View.OnClickL
         imageButton1.setOnClickListener(this);
         imageButton2 = findViewById(R.id.ib2);
         imageButton2.setOnClickListener(this);
-        dietplan1200Day7_btn0 = findViewById(R.id.dietplan1200Day7_btn0);
+        dietplan1200Day7_btn0 = findViewById(R.id.dietplan1200Day2_btn0);
         dietplan1200Day7_btn0.setOnClickListener(this);
-        dietplan1200Day7_btn1 = findViewById(R.id.dietplan1200Day7_btn1);
+        dietplan1200Day7_btn1 = findViewById(R.id.dietplan1200Day2_btn1);
         dietplan1200Day7_btn1.setOnClickListener(this);
-        dietplan1200Day7_btn2 = findViewById(R.id.dietplan1200Day7_btn2);
+        dietplan1200Day7_btn2 = findViewById(R.id.dietplan1200Day2_btn2);
         dietplan1200Day7_btn2.setOnClickListener(this);
-        dietplan1200Day7_btn3 = findViewById(R.id.dietplan1200Day7_btn3);
+        dietplan1200Day7_btn3 = findViewById(R.id.dietplan1200Day3_btn3);
         dietplan1200Day7_btn3.setOnClickListener(this);
         dietplan1200Day7_btn4 = findViewById(R.id.dietplan1200Day7_btn4);
         dietplan1200Day7_btn4.setOnClickListener(this);
@@ -51,22 +51,22 @@ public class Dietplan1200Day7 extends AppCompatActivity implements View.OnClickL
                 Intent i = new Intent(this, Dietplan1200Day1.class);
                 startActivity(i);
                 break; }
-            case R.id.dietplan1200Day7_btn0:{
+            case R.id.dietplan1200Day2_btn0:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan1200Day7_btn1:{
+            case R.id.dietplan1200Day2_btn1:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan1200Day7_btn2:{
+            case R.id.dietplan1200Day2_btn2:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan1200Day7_btn3:{
+            case R.id.dietplan1200Day3_btn3:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
@@ -76,7 +76,7 @@ public class Dietplan1200Day7 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            case R.id.dietplan1200Day7_btn5:{
+            case R.id.dietplan1200Day3_btn4:{
                 Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
                 startActivity(i);
                 break;
