@@ -73,9 +73,9 @@ public class Dietplan1200Day6 extends AppCompatActivity implements View.OnClickL
     @Override
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
-            case android.R.id.home:{
-                // todo: goto back activity from here
-                finish();
+            case android.R.id.home: {
+                Intent i = new Intent(this, Dietplan1200Activity.class);
+                startActivity(i);
                 return true;
             }
             case R.id.navigation_home:{
