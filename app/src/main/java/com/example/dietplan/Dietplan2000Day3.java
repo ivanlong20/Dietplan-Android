@@ -13,12 +13,13 @@ import android.widget.RelativeLayout;
 public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickListener {
     private ImageButton imageButton1,  imageButton2;
     RelativeLayout dietplan2000Day3_btn0, dietplan2000Day3_btn1, dietplan2000Day3_btn2,dietplan2000Day3_btn3,
-            dietplan2000Day3_btn4,dietplan2000Day3_btn5,dietplan2000Day3_btn6,dietplan2000Day3_btn7,dietplan2000Day3_btn8,dietplan2000Day3_btn9;
+            dietplan2000Day3_btn4,dietplan2000Day3_btn5,dietplan2000Day3_btn6,dietplan2000Day3_btn7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan2000_day3);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("2000 Calories");
 
         imageButton1 = findViewById(R.id.ib1);
         imageButton1.setOnClickListener(this);
@@ -28,11 +29,9 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
         dietplan2000Day3_btn0.setOnClickListener(this);
         dietplan2000Day3_btn1 = findViewById(R.id.dietplan2000Day3_btn1);
         dietplan2000Day3_btn1.setOnClickListener(this);
-        /*
         dietplan2000Day3_btn2 = findViewById(R.id.dietplan2000Day3_btn2);
         dietplan2000Day3_btn2.setOnClickListener(this);
         dietplan2000Day3_btn3 = findViewById(R.id.dietplan2000Day3_btn3);
-        */
         dietplan2000Day3_btn3.setOnClickListener(this);
         dietplan2000Day3_btn4 = findViewById(R.id.dietplan2000Day3_btn4);
         dietplan2000Day3_btn4.setOnClickListener(this);
@@ -42,10 +41,6 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
         dietplan2000Day3_btn6.setOnClickListener(this);
         dietplan2000Day3_btn7 = findViewById(R.id.dietplan2000Day3_btn7);
         dietplan2000Day3_btn7.setOnClickListener(this);
-        dietplan2000Day3_btn8 = findViewById(R.id.dietplan2000Day3_btn8);
-        dietplan2000Day3_btn8.setOnClickListener(this);
-        dietplan2000Day3_btn9 = findViewById(R.id.dietplan2000Day3_btn9);
-        dietplan2000Day3_btn9.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -56,7 +51,7 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.ib1: {
-                Intent i = new Intent(this, Dietplan2000Day3.class);
+                Intent i = new Intent(this, Dietplan2000Day2.class);
                 startActivity(i);
                 break; }
             case R.id.ib2: {
@@ -73,20 +68,18 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break;
             }
-            /*
             case R.id.dietplan2000Day3_btn2:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan2000Day3_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
                 break;
             }
-            */
             case R.id.dietplan2000Day3_btn4:{
-                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
+                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
                 startActivity(i);
                 break;
             }
@@ -96,22 +89,12 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
                 break;
             }
             case R.id.dietplan2000Day3_btn6:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                Intent i = new Intent(this, RecipesOfEasySalmonCakes.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan2000Day3_btn7:{
                 Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day3_btn8:{
-                Intent i = new Intent(this, RecipesOfEasySalmonCakes.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan2000Day3_btn9:{
-                Intent i = new Intent(this, RecipesOfOvenSweetPotatoFries.class);
                 startActivity(i);
                 break;
             }
@@ -130,16 +113,7 @@ public class Dietplan2000Day3 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 return true;
             }
-            case R.id.navigation_bmr:{
-                Intent i = new Intent(this, BMRFragment.class);
-                startActivity(i);
-                return true;
-            }
-            case R.id.navigation_bmi:{
-                Intent i = new Intent(this, BMIFragment.class);
-                startActivity(i);
-                return true;
-            }
+
             default:
                 return super.onOptionsItemSelected(item);
         }

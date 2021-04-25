@@ -19,6 +19,7 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietplan2000_day7);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("2000 Calories");
 
         imageButton1 = findViewById(R.id.ib1);
         imageButton1.setOnClickListener(this);
@@ -126,16 +127,7 @@ public class Dietplan2000Day7 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 return true;
             }
-            case R.id.navigation_bmr:{
-                Intent i = new Intent(this, BMRFragment.class);
-                startActivity(i);
-                return true;
-            }
-            case R.id.navigation_bmi:{
-                Intent i = new Intent(this, BMIFragment.class);
-                startActivity(i);
-                return true;
-            }
+
             default:
                 return super.onOptionsItemSelected(item);
         }
