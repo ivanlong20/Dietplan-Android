@@ -48,7 +48,7 @@ public class Dietplan1800Day1 extends AppCompatActivity implements View.OnClickL
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.bottom_nav_menu, menu);
+        getMenuInflater().inflate(R.menu.bottom_nav_menu2, menu);
         return true;
     }
 
