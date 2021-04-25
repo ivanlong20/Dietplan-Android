@@ -52,27 +52,17 @@ public class Dietplan1200Day5 extends AppCompatActivity implements View.OnClickL
                 startActivity(i);
                 break; }
             case R.id.dietplan1200Day5_btn0:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day5_btn1:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
-                startActivity(i);
-                break;
-            }
-            case R.id.dietplan1200Day5_btn2:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                Intent i = new Intent(this, RecipesOfMuesliwithRaspberries.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan1200Day5_btn3:{
-                Intent i = new Intent(this, RecipesOfBakedBananaNutOatmealCups.class);
+                Intent i = new Intent(this, RecipesOfChipotleLimeCauliflowerTacoBowls.class);
                 startActivity(i);
                 break;
             }
             case R.id.dietplan1200Day5_btn4:{
-                Intent i = new Intent(this, RecipesOfVeggieHummusSandwich.class);
+                Intent i = new Intent(this, RecipesOfChickenCucumberLettuceWrapswithPeanutSauce.class);
                 startActivity(i);
                 break;
             }
@@ -82,7 +72,7 @@ public class Dietplan1200Day5 extends AppCompatActivity implements View.OnClickL
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
             case android.R.id.home: {
-                Intent i = new Intent(this, Dietplan2000Activity.class);
+                Intent i = new Intent(this, Dietplan1200Activity.class);
                 startActivity(i);
                 return true;
             }
