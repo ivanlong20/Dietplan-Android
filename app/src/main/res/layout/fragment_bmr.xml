@@ -14,16 +14,30 @@
         android:gravity="center|top"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvTips2"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
             android:gravity="center"
-            android:text="BMR"
-            android:textColor="#1C1CCC"
-            android:textSize="24sp"
-            tools:text="BMR" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTips2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:text="BMR"
+                android:textColor="#1C1CCC"
+                android:textSize="36sp"
+                tools:text="BMR" />
+
+            <ImageButton
+                android:id="@+id/quest_bmr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/small_quesution" />
+        </LinearLayout>
 
         <TableLayout
             android:layout_width="match_parent"
@@ -263,12 +277,6 @@
                 android:layout_height="match_parent"
                 android:gravity="center">
 
-                <ImageButton
-                    android:id="@+id/quest_bmr"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:src="@drawable/small_quesution" />
             </TableRow>
 
             <TableRow
