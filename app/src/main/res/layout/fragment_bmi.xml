@@ -18,7 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Your BMI" />
+            android:text="Your BMI"
+            android:textColor="#2196F3"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView14"
@@ -26,8 +29,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:text="Result"
-            android:textColor="#191919"
-            android:textSize="36sp" />
+            android:textColor="#03A9F4"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/tvResult"
@@ -35,6 +38,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
+            android:textColor="#8BC34A"
             android:textSize="50sp" />
 
         <TextView
@@ -43,7 +47,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
-            android:textColor="#6A6969"
+            android:textColor="#8BC34A"
             android:textSize="24sp" />
 
         <TextView
@@ -52,6 +56,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
+            android:textColor="#E91E63"
             android:textSize="18sp" />
 
         <TextView
