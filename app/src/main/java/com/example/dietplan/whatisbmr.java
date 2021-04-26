@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.Menu;
 import android.view.MenuItem;
 
 public class whatisbmr extends AppCompatActivity {
@@ -18,6 +19,14 @@ public class whatisbmr extends AppCompatActivity {
 
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.bottom_nav_menu2, menu);
+        return true;
+    }
+
     @Override
     public boolean onOptionsItemSelected (MenuItem item){
         switch (item.getItemId()) {
