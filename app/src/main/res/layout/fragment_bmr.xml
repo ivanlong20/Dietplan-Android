@@ -10,24 +10,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#FFFFFF"
         android:gravity="center|top"
         android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="Your BMR" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:text="Result"
-            android:textColor="#191919"
-            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/tvTips2"
@@ -36,57 +21,9 @@
             android:fontFamily="@font/fredoka_one"
             android:gravity="center"
             android:text="BMR"
-            android:textColor="#6A6969"
+            android:textColor="#1C1CCC"
             android:textSize="24sp"
             tools:text="BMR" />
-
-        <TextView
-            android:id="@+id/tvResult"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:gravity="center"
-            android:textSize="30sp" />
-
-        <TextView
-            android:id="@+id/tvTips"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:gravity="center"
-            android:text="Daily Calories Need"
-            android:textColor="#6A6969"
-            android:textSize="24sp"
-            android:visibility="visible"
-            tools:text="Daily Calories Need" />
-
-        <TextView
-            android:id="@+id/tvTips1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:gravity="center"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/tvTips3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:gravity="center"
-            android:text="Daily Calories for weight loss"
-            android:textColor="#6A6969"
-            android:textSize="24sp"
-            android:visibility="visible"
-            tools:text="Daily Calories for weight loss" />
-
-        <TextView
-            android:id="@+id/tvTips4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/fredoka_one"
-            android:gravity="center"
-            android:textSize="18sp" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -322,9 +259,124 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent">
+
+            </TableRow>
 
         </TableLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:text="Your BMR"
+            android:textColor="#040404"
+            android:textColorHighlight="#550D0D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="left"
+                android:text="Result"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="right"
+                android:textColor="#FF0303"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:text="Daily Calories Need"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:visibility="visible"
+                tools:text="Daily Calories Need" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTips1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:textColor="#FF0303"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTips3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="left"
+                android:text="Daily Calories for weight loss"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:visibility="visible"
+                tools:text="Daily Calories for weight loss" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTips4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:gravity="center"
+                android:textColor="#FF0303"
+                android:textSize="20sp" />
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
