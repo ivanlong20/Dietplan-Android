@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,8 +18,8 @@ import androidx.fragment.app.Fragment;
 
 
 public class BMIFragment extends Fragment implements View.OnClickListener {
-
     Button button;
+    ImageButton ImageButton;
     TextView tvResult, tvTips, tvTips1, tv_cm_inch, tv_kg_pound;
     EditText editTextNumberWeight, editTextNumberHeight;
     Switch switch1, switch2;
@@ -42,6 +43,7 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         tv_kg_pound = (TextView) v.findViewById(R.id.tv_kg_pound);
         switch1 = (Switch) v.findViewById(R.id.switch1);
         switch2 = (Switch) v.findViewById(R.id.switch2);
+        ImageButton = (ImageButton) v.findViewById(R.id.quest_bmi);
         switch1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

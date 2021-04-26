@@ -169,7 +169,7 @@
                 android:gravity="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton8"
+                    android:id="@+id/quest_bmi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
