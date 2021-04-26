@@ -67,7 +67,7 @@ public class BMRFragment extends Fragment implements View.OnClickListener{
             public void onClick(View v) {
                 switch (v.getId()){
                     case R.id.quest_bmr:{
-                        Intent intent = new Intent(getActivity(), wahtisbmi.class);
+                        Intent intent = new Intent(getActivity(), whatisbmr.class);
                         startActivity(intent);
                         break;
                     }
