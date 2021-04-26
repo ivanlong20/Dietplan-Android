@@ -34,7 +34,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:text="What is BMI ?"
-                            android:textSize="36sp" />
+                            android:textSize="30sp" />
                     </TableRow>
 
                     <TableRow
@@ -45,6 +45,7 @@
                             android:id="@+id/textView29"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="Body mass index (BMI) is a person’s weight in kilograms divided by the square of height in meters. BMI is an inexpensive and easy screening method for weight category—underweight, healthy weight, overweight, and obesity."
                             android:textSize="24sp" />
                     </TableRow>
@@ -69,7 +70,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:text=" How is BMI calculated?"
-                            android:textSize="36sp" />
+                            android:textSize="30sp" />
                     </TableRow>
 
                     <TableRow
@@ -80,6 +81,7 @@
                             android:id="@+id/textView33"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="Formula: weight (kg) / [height (m)]2"
                             android:textSize="24sp" />
                     </TableRow>
@@ -92,6 +94,7 @@
                             android:id="@+id/textView34"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="Formula: weight (lb) / [height (in)]2 x 703"
                             android:textSize="24sp" />
 
