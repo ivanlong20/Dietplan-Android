@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dietplan">
+        <activity android:name=".whatisbmr"></activity>
+        <activity android:name=".wahtisbmi" />
         <activity android:name=".RecipesOfSpinachArtichokeDipPasta" />
         <activity android:name=".RecipesOfEgg_in_a_HolePepperswithAvocadoSalsa" />
         <activity android:name=".RecipesOfCurriedSweetPotatoPeanutSoup" />

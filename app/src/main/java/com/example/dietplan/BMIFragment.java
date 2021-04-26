@@ -1,6 +1,7 @@
 package com.example.dietplan;
 
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,7 +45,6 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         tv_kg_pound = (TextView) v.findViewById(R.id.tv_kg_pound);
         switch1 = (Switch) v.findViewById(R.id.switch1);
         switch2 = (Switch) v.findViewById(R.id.switch2);
-        ImageButton = (ImageButton) v.findViewById(R.id.quest_bmi);
         switch1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,6 +67,7 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         });
         return v;
     }
+
     // Updated [Onclick --> onClick]
     public void onClick(View v){
         switch (v.getId()){
