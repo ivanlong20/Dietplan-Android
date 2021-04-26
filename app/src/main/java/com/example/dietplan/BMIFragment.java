@@ -45,6 +45,22 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         tv_kg_pound = (TextView) v.findViewById(R.id.tv_kg_pound);
         switch1 = (Switch) v.findViewById(R.id.switch1);
         switch2 = (Switch) v.findViewById(R.id.switch2);
+        ImageButton = (ImageButton) v.findViewById(R.id.quest_bmi);
+            ImageButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    switch (v.getId()){
+                        case R.id.quest_bmi:{
+                            Intent intent = new Intent(getActivity(), wahtisbmi.class);
+                            startActivity(intent);
+                            break;
+                        }
+                    }
+                }
+            });
+
+
+
         switch1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

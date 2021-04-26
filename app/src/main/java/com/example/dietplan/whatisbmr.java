@@ -12,12 +12,5 @@ public class whatisbmr extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_whatisbmr);
 
-        DisplayMetrics dm = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(dm);
-
-        int width = dm.widthPixels;
-        int height = dm.heightPixels;
-
-        getWindow().setLayout((int)(width*.8),(int)(height*.6));
     }
 }
