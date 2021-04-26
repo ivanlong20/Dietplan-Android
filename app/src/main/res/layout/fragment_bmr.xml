@@ -300,7 +300,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:fontFamily="@font/fredoka_one"
-                android:gravity="right"
+                android:gravity="left"
                 android:textColor="#FF0303"
                 android:textSize="20sp" />
         </LinearLayout>
