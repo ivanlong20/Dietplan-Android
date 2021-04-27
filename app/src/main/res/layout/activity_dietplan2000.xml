@@ -69,7 +69,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -121,7 +133,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -172,7 +196,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -218,7 +254,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -269,7 +317,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -315,7 +375,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -367,7 +439,19 @@
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
-
+            <ImageView
+                android:id="@+id/day1_1200_10"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/rightrrow" />
         </RelativeLayout>
 
     </LinearLayout>
