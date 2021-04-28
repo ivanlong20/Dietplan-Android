@@ -68,6 +68,10 @@ public class Dietplan1800Day7 extends AppCompatActivity implements View.OnClickL
                 Intent i = new Intent(this, RecipesOfSpinachArtichokeDipPasta.class);
                 startActivity(i);
                 break; }
+            case R.id.dietplan1800Day7_btn6: {
+                Intent i = new Intent(this, RecipesOfBalsamicVinaigrette.class);
+                startActivity(i);
+                break; }
         }
     }
 
