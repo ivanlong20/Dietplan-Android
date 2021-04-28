@@ -104,7 +104,8 @@ public class BMRFragment extends Fragment implements View.OnClickListener{
                 String field1 =  editTextNumberHeight.getText().toString();
                 String field2 =  editTextNumberWeight.getText().toString();
                 String field3 =  editTextNumberAge.getText().toString();
-                if (field1.isEmpty() || field2.isEmpty() || field3.isEmpty()) {
+                if (field1.isEmpty() || field2.isEmpty() || field3.isEmpty() || !(chipMale.isChecked()||chipFemale.isChecked()) ||
+                        !(chip0.isChecked()||chip1to3.isChecked()||chip3to5.isChecked()||chip6to7.isChecked()||chipExtra.isChecked())) {
                     Toast.makeText(getActivity(), "Please fill in all information", Toast.LENGTH_SHORT).show();
                     return;
                 }
