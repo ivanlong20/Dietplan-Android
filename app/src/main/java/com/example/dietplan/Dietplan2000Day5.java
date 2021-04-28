@@ -80,7 +80,7 @@ public class Dietplan2000Day5 extends AppCompatActivity implements View.OnClickL
                 break;
             }
             case R.id.dietplan2000Day5_btn9:{
-                Intent i = new Intent(this, RecipesOfOvenSweetPotatoFries.class);
+                Intent i = new Intent(this, RecipesOfBalsamicVinaigrette.class);
                 startActivity(i);
                 break;
             }
