@@ -36,9 +36,9 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         editTextNumberHeight = (EditText) v.findViewById(R.id.editTextNumberHeight);
         editTextNumberWeight = (EditText) v.findViewById(R.id.editTextNumberWeight);
 
-       button = (Button) v.findViewById(R.id.button);
-       button.setOnClickListener(this);
-       tvResult = (TextView) v.findViewById(R.id.tvResult);
+        button = (Button) v.findViewById(R.id.button);
+        button.setOnClickListener(this);
+        tvResult = (TextView) v.findViewById(R.id.tvResult);
         tvTips = (TextView) v.findViewById(R.id.tvTips);
         tvTips1 = (TextView) v.findViewById(R.id.tvTips1);
         tv_cm_inch = (TextView) v.findViewById(R.id.tv_cm_inch);
@@ -58,9 +58,6 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
                     }
                 }
             });
-
-
-
         switch1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,7 +81,6 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
         return v;
     }
 
-    // Updated [Onclick --> onClick]
     public void onClick(View v){
         switch (v.getId()){
             case R.id.button:
@@ -94,172 +90,72 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
                     Toast.makeText(getActivity(), "Please fill in all information", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if(switch1.isChecked()){
-                    if(switch2.isChecked()){
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
-                        double bmi = weight/((height/100)*(height/100));
-
-
-
-                        if(bmi<18.5){
-
-                            tvResult.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvTips.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Under Weight");
-                            tvTips1.setText("You should not lose your weight");
-                        }
-                        if(bmi>18.5 && bmi<25){
-
-                            tvResult.setTextColor(Color.parseColor("#07eb4f"));
-                            tvTips.setTextColor(Color.parseColor("#07eb4f"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Healthy");
-                            tvTips1.setText("You are not necessary to lose your weight");
-                        }
-                        if(bmi>25 && bmi<30){
-
-                            tvResult.setTextColor(Color.parseColor("#eba307"));
-                            tvTips.setTextColor(Color.parseColor("#eba307"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Overweight");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                        if(bmi>30) {
-
-                            tvResult.setTextColor(Color.parseColor("#f50505"));
-                            tvTips.setTextColor(Color.parseColor("#f50505"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Obese");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                    }
-                    else{
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
-                        double bmi = weight/((height/100)*(height/100));
-
-
-
-                        if(bmi<18.5){
-
-                            tvResult.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvTips.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Under Weight");
-                            tvTips1.setText("You should not lose your weight");
-                        }
-                        if(bmi>18.5 && bmi<25){
-
-                            tvResult.setTextColor(Color.parseColor("#07eb4f"));
-                            tvTips.setTextColor(Color.parseColor("#07eb4f"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Healthy");
-                            tvTips1.setText("You are not necessary to lose your weight");
-                        }
-                        if(bmi>25 && bmi<30){
-
-                            tvResult.setTextColor(Color.parseColor("#eba307"));
-                            tvTips.setTextColor(Color.parseColor("#eba307"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Overweight");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                        if(bmi>30) {
-
-                            tvResult.setTextColor(Color.parseColor("#f50505"));
-                            tvTips.setTextColor(Color.parseColor("#f50505"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Obese");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                    }
-                }
-                else{
-                    if(switch2.isChecked()){
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
-                        double bmi = weight/((height/100)*(height/100));
-
-
-
-                        if(bmi<18.5){
-
-                            tvResult.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvTips.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Under Weight");
-                            tvTips1.setText("You should not lose your weight");
-                        }
-                        if(bmi>18.5 && bmi<25){
-
-                            tvResult.setTextColor(Color.parseColor("#07eb4f"));
-                            tvTips.setTextColor(Color.parseColor("#07eb4f"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Healthy");
-                            tvTips1.setText("You are not necessary to lose your weight");
-                        }
-                        if(bmi>25 && bmi<30){
-
-                            tvResult.setTextColor(Color.parseColor("#eba307"));
-                            tvTips.setTextColor(Color.parseColor("#eba307"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Overweight");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                        if(bmi>30) {
-
-                            tvResult.setTextColor(Color.parseColor("#f50505"));
-                            tvTips.setTextColor(Color.parseColor("#f50505"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Obese");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                    }
-                    else{
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
-                        double bmi = weight/((height/100)*(height/100));
-
-
-
-                        if(bmi<18.5){
-
-                            tvResult.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvTips.setTextColor(Color.parseColor("#dbd5d0"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Under Weight");
-                            tvTips1.setText("You should not lose your weight");
-                        }
-                        if(bmi>18.5 && bmi<25){
-
-                            tvResult.setTextColor(Color.parseColor("#07eb4f"));
-                            tvTips.setTextColor(Color.parseColor("#07eb4f"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Healthy");
-                            tvTips1.setText("You are not necessary to lose your weight");
-                        }
-                        if(bmi>25 && bmi<30){
-
-                            tvResult.setTextColor(Color.parseColor("#eba307"));
-                            tvTips.setTextColor(Color.parseColor("#eba307"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Overweight");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                        if(bmi>30) {
-
-                            tvResult.setTextColor(Color.parseColor("#f50505"));
-                            tvTips.setTextColor(Color.parseColor("#f50505"));
-                            tvResult.setText(String.format("%.2f",bmi));
-                            tvTips.setText("Obese");
-                            tvTips1.setText("You should lose your weight");
-                        }
-                    }
-                }
+                showResult();
             break;
         }
 
+    }
+
+    public void showResult(){
+        if(switch1.isChecked()){
+            if(switch2.isChecked()){
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
+                calculateBMI(height, weight);
+            }
+            else{
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
+                calculateBMI(height, weight);
+            }
+        }
+        else{
+            if(switch2.isChecked()){
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
+                calculateBMI(height, weight);
+            }
+            else{
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
+                calculateBMI(height, weight);
+            }
+        }
+    }
+
+    public void calculateBMI(double height, double weight){
+        double bmi = weight/((height/100)*(height/100));
+        if(bmi<18.5){
+
+            tvResult.setTextColor(Color.parseColor("#dbd5d0"));
+            tvTips.setTextColor(Color.parseColor("#dbd5d0"));
+            tvResult.setText(String.format("%.2f",bmi));
+            tvTips.setText("Under Weight");
+            tvTips1.setText("You should not lose your weight");
+        }
+        if(bmi>18.5 && bmi<25){
+
+            tvResult.setTextColor(Color.parseColor("#07eb4f"));
+            tvTips.setTextColor(Color.parseColor("#07eb4f"));
+            tvResult.setText(String.format("%.2f",bmi));
+            tvTips.setText("Healthy");
+            tvTips1.setText("You are not necessary to lose your weight");
+        }
+        if(bmi>25 && bmi<30){
+
+            tvResult.setTextColor(Color.parseColor("#eba307"));
+            tvTips.setTextColor(Color.parseColor("#eba307"));
+            tvResult.setText(String.format("%.2f",bmi));
+            tvTips.setText("Overweight");
+            tvTips1.setText("You should lose your weight");
+        }
+        if(bmi>30) {
+
+            tvResult.setTextColor(Color.parseColor("#f50505"));
+            tvTips.setTextColor(Color.parseColor("#f50505"));
+            tvResult.setText(String.format("%.2f",bmi));
+            tvTips.setText("Obese");
+            tvTips1.setText("You should lose your weight");
+        }
     }
 }

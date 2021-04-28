@@ -108,288 +108,123 @@ public class BMRFragment extends Fragment implements View.OnClickListener{
                     Toast.makeText(getActivity(), "Please fill in all information", Toast.LENGTH_SHORT).show();
                     return;
                 }
-                if(switch1.isChecked()){
-                    if(switch2.isChecked()){//inch+pound
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;//cm
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;//kg
-                        double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
-                        if(chipMale.isChecked()){//male
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                        else{//female
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                    }
-                    else{//inch+kg
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
-                        double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
-                        if(chipMale.isChecked()){//male
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                        else{//female
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                    }
-                }
-                else{//cm+pound
-                    if(switch2.isChecked()){
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
-                        double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
-                        if(chipMale.isChecked()){//male
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                        else{//female
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                    }
-                    else{//cm+kg
-                        double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
-                        double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
-                        double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
-                        if(chipMale.isChecked()){//male
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age +5)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                        else{//female
-                            if(chip0.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.2;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip1to3.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.375;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip3to5.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.55;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chip6to7.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.725;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                            if(chipExtra.isChecked()){
-                                double bmr = (10*weight + 6.25*height - 5*age -161)*1.9;
-                                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
-                                tvTips1.setText(String.format("%.0f Calories / day",bmr));
-                                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
-                            }
-                        }
-                    }
-                }
+                resultBMR();
                 break;
         }
+    }
+    public void resultBMR(){
+        if(switch1.isChecked()){
+            if(switch2.isChecked()){//inch+pound
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;//cm
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;//kg
+                double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
+                if(chipMale.isChecked()){//male
+                    calculateMaleBMR(weight, height, age);
+                }
+                else{//female
+                    calculateFemaleBMR(weight, height, age);
+                }
+            }
+            else{//inch+kg
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()))*0.0254*100;
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
+                double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
+                if(chipMale.isChecked()){//male
+                    calculateMaleBMR(weight, height, age);
+                }
+                else{//female
+                    calculateFemaleBMR(weight, height, age);
+                }
+            }
+        }
+        else{
+            if(switch2.isChecked()){//cm+pound
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()))*0.45359237;
+                double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
+                if(chipMale.isChecked()){//male
+                    calculateMaleBMR(weight, height, age);
+                }
+                else{//female
+                    calculateFemaleBMR(weight, height, age);
+                }
+            }
+            else{//cm+kg
+                double height = Double.valueOf(String.valueOf(editTextNumberHeight.getText()));
+                double weight = Double.valueOf(String.valueOf(editTextNumberWeight.getText()));
+                double age = Double.valueOf(String.valueOf(editTextNumberAge.getText()));//age
+                if(chipMale.isChecked()){//male
+                    calculateMaleBMR(weight, height, age);
+                }
+                else{//female
+                    calculateFemaleBMR(weight, height, age);
+                }
+            }
+        }
+    }
 
+    public void calculateMaleBMR(double weight, double height, double age){
+            if(chip0.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age +5)*1.2;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip1to3.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age +5)*1.375;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip3to5.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age +5)*1.55;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip6to7.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age +5)*1.725;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chipExtra.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age +5)*1.9;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+    }
+    public void calculateFemaleBMR(double weight, double height, double age){
+            if(chip0.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age -161)*1.2;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.2));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip1to3.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age -161)*1.375;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.375));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip3to5.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age -161)*1.55;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.55));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chip6to7.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age -161)*1.725;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.725));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
+            if(chipExtra.isChecked()){
+                double bmr = (10*weight + 6.25*height - 5*age -161)*1.9;
+                tvResult.setText(String.format("%.0f Calories / day",bmr/1.9));
+                tvTips1.setText(String.format("%.0f Calories / day",bmr));
+                tvTips4.setText(String.format("%.0f Calories / day",bmr*0.75));
+            }
     }
 }
