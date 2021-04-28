@@ -90,6 +90,10 @@ public class BMIFragment extends Fragment implements View.OnClickListener {
                     Toast.makeText(getActivity(), "Please fill in all information", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (Double.valueOf(field1) == 0 || Double.valueOf(field2) == 0 ) {
+                    Toast.makeText(getActivity(), "Input 0 is not allowed", Toast.LENGTH_SHORT).show();
+                    return;
+                }
                 showResult();
             break;
         }
