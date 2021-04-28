@@ -103,6 +103,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:src="@drawable/rightrrow" />
+
                 <TextView
                     android:layout_width="302dp"
                     android:layout_height="51dp"
@@ -117,7 +118,7 @@
                     android:gravity="center"
                     android:paddingStart="20dp"
                     android:paddingEnd="20dp"
-                    android:text="1 serving Egg in a Hole Peppers with Avocado Salsa "
+                    android:text='1 serving "Egg in a Hole" Peppers with Avocado Salsa '
                     android:textAllCaps="false"
                     android:textColor="#000000"
                     android:textSize="20sp"
