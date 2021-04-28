@@ -27,6 +27,7 @@
         <activity android:name=".RecipesOfSheetPanChickenFajitaBowls" />
         <activity android:name=".RecipesOfVeggieHummusSandwich" />
         <activity android:name=".RecipesOfBakedBananaNutOatmealCups" />
+        <activity android:name=".RecipesOfBalsamicVinaigrette" />
         <activity android:name=".Dietplan2000Day7" />
         <activity android:name=".Dietplan2000Day6" />
         <activity android:name=".Dietplan2000Day5" />
